@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINDSPACE☮️</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="container">
+        <h2 class="logo">SOCIAL</h2>
+        <div class="search-bar">
+          <i class="bx bx-search-alt-2"></i>
+          <input
+            type="search"
+            placeholder="search for mentors and help seakers"
+          />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create-for-post">Create</label>
+          <div class="profile-picture">
+            <img src="./images/images/profile-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main div -->
+    <main>
+      <div class="container">
+        <!-- left side -->
+        <div class="left">
+          <a href="" class="profile">
+            <div class="profile-picture">
+              <img src="./images/images/profile-1.jpg" alt="" />
+            </div>
+            <div class="handle">
+              <h4 class="primary">Diana Ayi</h4>
+              <p class="text-muted">@dayi</p>
+            </div>
+          </a>
+
+          <!-- left side-bar -->
+          <div class="sidebar">
+            <a class="menu-item active">
+              <span><i class="bx bx-home"></i></span>
+              <h3>Home</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="bx bx-compass"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a class="menu-item" id="notifications">
+              <span
+                ><i class="bx bx-bell">
+                  <small class="notification-count">9+</small>
+                </i></span
+              >
+
+              <h3>Notification</h3>
+              <!------------------- NOTIFICATION ----------------------->
+              <div class="notification-popup">
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-2.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Keke Benjamin</b> accepted your friend request
+                    <small class="text-muted"> 2 DAYS AGO</small>
+                  </div>
+                </div>
+
+                <!-- second -->
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-3.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>John Doe</b> commented on your post<small
+                      class="text-muted"
+                    >
+                      1 HOUR AGO</small
+                    >
+                  </div>
+                </div>
+                <!-- third -->
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-4.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Mary Oppang</b> and<b> 280 others</b> liked your
+                    post<small class="text-muted"> 4 MINUTE AGO </small>
+                  </div>
+                </div>
+                <!-- fourth -->
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-5.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Doris Lartey</b> accepted your friend request<small
+                      class="text-muted"
+                    >
+                      2 days ago</small
+                    >
+                  </div>
+                </div>
+                <!-- fifth -->
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-6.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Dominica de Suliva</b> commented on the post you are
+                    tagged<small class="text-muted"> 2 DAYS AGO</small>
+                  </div>
+                </div>
+                <!-- sixth -->
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-7.jpg" alt="" />
+                  </div>
+                  <div class="notification-body" id="notification">
+                    <b>Helsenky washington</b> commented on the post you are
+                    tagged<small class="text-muted"> 1 HOUR AGO</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <!-- ending here -->
+
+            <a class="menu-item" id="messages-notification">
+              <span
+                ><i class="bx bx-envelope">
+                  <small class="notification-count">6</small>
+                </i></span
+              >
+
+              <h3>Message</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="bx bx-bookmark"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="bx bx-objects-vertical-bottom"></i></span>
+              <h3>Analytics</h3>
+            </a>
+            <a class="menu-item" id="theme">
+              <span><i class="bx bx-palette"></i></span>
+              <h3>Theme</h3>
+            </a>
+            <a class="menu-item active">
+              <span><i class="bx bx-cog"></i></span>
+              <h3>Settings</h3>
+            </a>
+          </div>
+          <label for="create-for-post" class="btn btn-primary"
+            >Create Post</label
+          >
+        </div>
+
+        <!-- middle side -->
+        <div class="middle">
+          <!-- stories -->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/images/profile-8.jpg" alt="" />
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/images/profile-12.jpg" alt="" />
+              </div>
+              <p class="name">Ozge Yagiz</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/images/profile-9.jpg" alt="" />
+              </div>
+              <p class="name">Ravti Sinha</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/images/profile-10.jpg" alt="" />
+              </div>
+              <p class="name">Lily Hadid</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/images/profile-11.jpg" alt="" />
+              </div>
+              <p class="name">Roger Forest</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/images/profile-12.jpg" alt="" />
+              </div>
+              <p class="name">Chris Stone</p>
+            </div>
+          </div>
+          <!-- --------end of stories-------- -->
+          <form class="create-post">
+            <div class="profile-picture">
+              <img src="./images/images/profile-1.jpg" alt="" />
+            </div>
+            <input
+              type="text"
+              placeholder="What's on your mind,Diana?"
+              id="create-post"
+            />
+            <input type="submit" value="Post" class="btn btn-primary" />
+          </form>
+          <!----------------------------- Feed ----------------------------->
+          <div class="feeds">
+            <!--------------- feed 1 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-13.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Lana Rose</h3>
+                    <small>Dubai,15 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/feed-1.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-3.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-10.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-4.jpg" alt="" /></span>
+                <p>Liked by<b> Ernet Achiever</b> and<b> 2,532 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed ---------------->
+            <!--------------- feed 2 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-14.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Alisia Verono</h3>
+                    <small>Morisville,15 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/feed-2.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-16.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-7.jpg" alt="" /></span>
+                <p>Liked by<b> Joseph Morgan</b> and<b> 590 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Alisia Vereno</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed2 ---------------->
+            <!--------------- feed 3 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-15.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Yorkshire Chigan</h3>
+                    <small>Boston,1 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/feed-3.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-18.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-14.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-16.jpg" alt="" /></span>
+                <p>Liked by<b> Lina D'cuza</b> and<b> 532 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Yorkshire Chigan</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed3 ---------------->
+            <!--------------- feed 4 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-16.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Quino</h3>
+                    <small>North Carolina,23 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/feed-4.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-12.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-17.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-18.jpg" alt="" /></span>
+                <p>Liked by<b> Quino</b> and<b> 96,992 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed4 ---------------->
+            <!--------------- feed 5 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-17.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>JACKIE CHAN</h3>
+                    <small>New York,45 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/feed-5.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-8.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-14.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-20.jpg" alt="" /></span>
+                <p>Liked by<b> BROOK DAVIDSON</b> and<b> 2,532 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>JACKIE CHAN</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed5 ---------------->
+            <!--------------- feed 6 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-18.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Purvi Roger</h3>
+                    <small>MASSACHUSETS,1 SEC AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/feed-6.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-9.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-12.jpg" alt="" /></span>
+                <p>Liked by<b> Washington David</b> and<b> 2,532 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Purvi Roger</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed6 ---------------->
+            <!--------------- feed 7 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-19.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Brown Gracis</h3>
+                    <small>England,1 MINUTE AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/feed-7.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-19.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-2.jpg" alt="" /></span>
+                <p>Liked by<b> Emily White</b> and<b> 890 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Brown Gracis</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed7 ---------------->
+            <!--------------- feed 8 ------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/images/profile-20.jpg" alt="" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Vin Dice</h3>
+                    <small>California,1 HOUR AGO</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="bx bx-dots-horizontal-rounded"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/images/profile-5.jpg" alt="" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-message-rounded-dots"></i></span>
+                  <span><i class="bx bx-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="bx bx-bookmark"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/images/profile-5.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-6.jpg" alt="" /></span>
+                <span><img src="./images/images/profile-7.jpg" alt="" /></span>
+                <p>Liked by<b> Lavinsko Muriyo</b> and<b> 600 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Vin Dice</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veritatis, perspiciatis!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 233 comments</div>
+            </div>
+            <!--------------------- End of Feed8 ---------------->
+          </div>
+        </div>
+        <!---------------------------- right-side ----------------------------------->
+        <div class="right">
+          <div class="messages">
+            <div class="heading">
+              <h4>Messages</h4>
+              <i class="bx bxs-edit"></i>
+            </div>
+            <!-- search bar -->
+            <div class="search-bar">
+              <i class="bx bx-search-alt-2"></i>
+              <input
+                type="search"
+                placeholder="Search Messages"
+                name=""
+                id="message-search"
+              />
+            </div>
+            <!-- Message Category -->
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6>General</h6>
+              <h6 class="message-requests">Requests(7)</h6>
+            </div>
+            <!-- Message -->
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/images/profile-17.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Edem Quist</h5>
+                <p class="text-muted">Just woke up bro</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/images/profile-18.jpg" alt="" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>William Red</h5>
+                <p>Did you came yesterday?</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/images/profile-19.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Brooklyn Bridge</h5>
+                <p>2 new messages</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/images/profile-20.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Florida Miami</h5>
+                <p>I am tired</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/images/profile-13.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Sara Estate</h5>
+                <p class="text-muted">Chill Bro</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/images/profile-5.jpg" alt="" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Andrew Welsenky</h5>
+                <p class="text-muted">You did it!</p>
+              </div>
+            </div>
+          </div>
+          <!-------------- End of Messages ------------>
+
+          <!------------- Friend Requests --------------------->
+          <div class="friend-requests">
+            <h4>Requests</h4>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/images/profile-9.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Hajia Bintu</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <!-- second request -->
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/images/profile-6.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Hajia Bintu</h5>
+                  <p class="text-muted">8 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <!-- third request -->
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/images/profile-7.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Hajia Bintu</h5>
+                  <p class="text-muted">2 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!------------------ theme customization ------------------------>
+    <div class="customize-theme">
+      <div class="card">
+        <h2>Customize your view</h2>
+        <p class="text-muted">Manage your font size,color and background</p>
+
+        <!-- font size -->
+
+        <div class="font-size">
+          <h4>Font Size</h4>
+          <div>
+            <h6>Aa</h6>
+            <div class="choose-size">
+              <span class="font-size-1"></span>
+              <span class="font-size-2 active"></span>
+              <span class="font-size-3"></span>
+              <span class="font-size-4"></span>
+              <span class="font-size-5"></span>
+            </div>
+            <h3>Aa</h3>
+          </div>
+        </div>
+
+        <!-- primary color -->
+        <div class="color">
+          <h4>Color</h4>
+          <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
+          </div>
+        </div>
+
+        <!-- Background color -->
+        <div class="background">
+          <h4>Background</h4>
+          <div class="choose-bg">
+            <div class="bg-1 active">
+              <span></span>
+              <h5 for="bg-1">Light</h5>
+            </div>
+            <div class="bg-2">
+              <span></span>
+              <h5 for="bg-2">Dim</h5>
+            </div>
+            <div class="bg-3">
+              <span></span>
+              <h5 for="bg-3">Dark</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
