@@ -30,6 +30,10 @@ app.get("/knowmore", (req, res) => {
   res.render("socialmedia/knowmore");
 });
 
+app.get("/quote", (req, res) => {
+  res.render("socialmedia/quote");
+});
+
 app.get("/splashscreen", (req, res) => {
   res.render("socialmedia/splashscreen");
 });
